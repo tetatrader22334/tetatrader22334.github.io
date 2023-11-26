@@ -1,0 +1,49 @@
+:root {
+  --main-bg-color: #d6e2f0;
+  --white: #ffffff;
+  --font: "Outfit", sans-serif;
+}
+
+.main {
+  background-color: var(--main-bg-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.inner {
+	display: block;
+  width: 458px;
+  height: 512px;
+  background-color: var(--white);
+	border-radius: 30px;
+}
+
+.img-div {
+  width: 423px;
+  height: 275px;
+	margin: auto;
+	margin-top: 16px;
+}
+
+.img-style {
+	border-radius: 30px;
+}
+
+.header-text {
+	font-family: var(--font);
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	padding: 16px;
+}
+
+.text {
+	font-family: var(--font);
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 16px;
+}
